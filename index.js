@@ -24,12 +24,3 @@ $(document).ready(function () {
         } // End if
     });
 });
-setInterval (() => {
-    let date = new date()
-    let clock = 
-    document.getElementById('clock')
-    clock.innerHTML =
-    date.getHours()+':'+
-    date.getMinutes()+':'+
-    date.getSeconds()
-}, 1000);
